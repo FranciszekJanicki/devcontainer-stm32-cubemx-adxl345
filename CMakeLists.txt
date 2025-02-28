@@ -39,6 +39,14 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     "Core/Src/syscalls.c"
     "Core/Src/main.cpp"
     "Core/Src/usart.c"
+    "Core/Src/i2c.c"
+    "Core/Src/gpio.c"
+    "Core/Inc/utility.hpp"
+    "Core/Inc/i2c_device.hpp"
+    "Core/Src/i2c_device.cpp"
+    "Core/Src/adxl345.cpp"
+    "Core/Inc/vector3d.hpp"
+    "Core/Inc/quaternion3d.hpp"
 )
 
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
